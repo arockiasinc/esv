@@ -1,0 +1,243 @@
+  .invoice-section{
+   width:100%;
+ 
+   }
+   .invoice-section p,.invoice-section td,.invoice-section th,.invoice-section label{color:#000}
+   .right-section label{color:#58a057;}
+   .middle-section p{
+   color:#58a057;
+   }
+   .invoice-section ul li{list-style:none;}
+   .right-section ul{padding: 0;
+   /* margin: 0; */
+   max-width: 230px;
+   margin: auto;
+   }
+   .right-section li{float: left;
+   padding: 10px 22px 0 0px;}
+  
+   .right-section h3{
+   font-size: 26px;
+   font-weight: 600;
+   }
+   .right-section input[type="checkbox"]{
+   transform: scale(1.5);
+   }
+   
+   .right-section{padding: 35px 0px;text-align:center;}
+   .middle-section p{
+   font-size: 22px;
+   
+   }
+   .logo-section img{width:100%;}
+  .top-section div.logo-section{
+   float:left;width:20%;
+   }
+    .top-section div.middle-section{
+         float:left;width:70%;
+    }
+    .top-section div.right-section{
+         float:left;width:10%;
+    }
+   .right-section label{    font-size: 18px;
+   
+   padding-right: 10px;}
+   .body-section{float:left;width:100%;padding: 0 15px;    }
+   .body-section h5{    font-size: 20px;
+   font-weight: 600;
+   color: #58a057;
+   margin-bottom: 22px;
+   }
+   .body-section ul{padding:0;}
+   .options ul li{          float: left;
+   list-style: none;
+  padding: 10px 60px 0 0;
+   }
+   .body-section input[type="checkbox"]{
+   transform: scale(1.3);
+   }
+   .options ul li label{
+   padding-left:10px;color:#58a057 !important;font-size: 13px;}
+   /**********table*********** */
+   .table-total,.t_thead td{border-top:1px solid #fff !important;}
+   .body-section table{width:100%;margin-top:30px}
+   .body-section table,.body-section td,.body-section th {
+   border: 1px solid black;
+   padding:10px;
+   border-collapse: collapse; 
+   font-weight:600;
+   }
+   table.invoice-table th{ text-transform:uppercase;font-weight:600;
+   
+   text-align: center;
+   }
+   table .table-top label{
+   width: 20%;
+   text-transform:uppercase;
+   font-weight:600;
+  
+   }
+   table.invoice-table input[type="text"],table.table-total input[type="text"], input[type="number"]{
+   width: 100%;
+   border: 0;
+   }
+   table .table-top input[type="text"], input[type="number"]{
+  /* width: 80%;*/
+   border: 0;
+   }
+   .depositby ul li{margin:10px 0;}
+   .depositby label{width:100px; font-weight:600;}
+   .table-total{
+   margin-top:0px !important;
+   }
+   .cust-support li{
+   float:left;
+   width:50%;
+   }
+   .cust-support li label{font-weight:600;}
+   .cust-support input[type="text"]{
+   width:50% !important;
+   }
+   .table-total strong{
+   font-size:34px;
+   }
+   .b-top{
+   border-top: 2px solid #000;
+   }
+   .btn-save{
+   float:right;
+   background:#ff1d3e;
+   color:#fff;
+   border:1px solid #ff1d3e;
+   font-size:16px;
+   padding:10px 30px;
+    margin: 20px 0px 15px 20px;
+   }
+   
+   .btn-save:focus{
+       text-decoration:none; color:#fff;
+   }
+   
+   .btn-save:hover{opacity:0.6;text-decoration:none;color:#fff;}
+   
+   
+   /****new changes*/
+   .right-section img{
+       
+       width: 50%;
+    margin-top: -36px;
+       
+   }
+   .right-section ul{   
+       padding: 0;
+    
+    max-width: 230px;
+    margin: auto;
+    position: relative;
+    left: 12px;
+   }
+ 
+   .middle-section ul li{    float: left;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+       
+   }
+    .top-section{
+      color: #58a057;
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid #58a057;
+    margin-bottom: 20px;
+
+   }
+   .middle-section img{margin-right:15px;}
+   .middle-section ul{padding-left:0px;}
+   .middle-section div{padding:0 15px;}
+   .quotation{float:right;}
+   .quotation li label{padding-right:10px;color:#58a057;font-size: 18px;}
+   .quotation li{float:left;padding:10px;}
+
+   
+   /******media-query*************/
+    @media(max-width:1273px){
+         table .table-top label{width:100%;}
+    
+    }
+   @media(min-width:1091px) and (max-width:1273px){
+       .logo-section img{margin:auto;display:block;width:100%;}
+       .right-section img{margin:auto;display:block;width:76%;}
+       /*.top-section div.middle-section p{font-size:12px;}
+       .top-section div.right-section,.top-section div.middle-section,.top-section div.logo-section{width:100%;}*/
+      
+      
+  }
+   @media(min-width:982px) and (max-width:1090px){
+       .logo-section img{margin:auto;display:block;width:100%;}
+       .right-section img{margin:auto;display:block;width:76%;}
+       .top-section div.middle-section p{font-size:16px;}
+       .right-section label{font-size:12px}
+       .invoice-section ul li{
+        float:none;
+        width:100%;
+        }
+   }
+    @media (max-width:736px){
+        .invoice-section ul li{
+        float:none;
+      width:100%;
+        }
+        .table-container{    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 15px;
+}
+
+.table-total #labr{width: 108px;}
+
+.table-container::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+.table-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 7px;
+    margin:50px;
+  }
+   
+  /* Handle */
+ .table-container::-webkit-scrollbar-thumb {
+    background: #b30000; 
+    border-radius: 7px;
+  }
+  
+  /* Handle on hover */
+ .table-container::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+    }
+   
+   @media (max-width:981px){
+       .top-section div.right-section,.top-section div.middle-section,.top-section div.logo-section{width:100%;}
+        .logo-section img{margin:auto;display:block;width:50%;}
+       .right-section img{margin:auto;display:block;width:48%;}
+       .middle-section{padding:0 0 30px 0px !Important;}
+       .middle-section p{text-align:center;font-size:17px;}
+       .invoice-section ul li{
+        float:none;
+        width:100%;
+        }
+       
+   }
+   /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,971 @@
+ 
+
+
+    .quote_sticky{ position: relative;}
+    .quote_sticky img{ position: fixed; right: 0; bottom: 10px; z-index: 1; width: 250px;}
+    a.link{color: #d71400 !important;}
+    a.link:hover{color: #18187c !important;}
+    .pad_tb_6{ padding: 6rem 0;}
+    select,
+    input {
+        font-family: "Roboto";
+    }
+    .fancy-select ul.options li:hover {
+        color: #ffa800;
+    }
+    .btContent a {
+        color: #ffa800;
+    }
+    a:hover {
+        color: #ffa800;
+    }
+    .btText a {
+        color: #ffa800;
+    }
+    body {
+        font-family: "Roboto", Arial, sans-serif;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat";
+    }
+    blockquote {
+        font-family: "Montserrat";
+    }
+    blockquote:after {
+        border-color: #ffa800;
+    }
+    cite {
+        font-family: "Montserrat";
+    }
+    .btAccentDarkHeader .btPreloader .animation > div:first-child,
+    .btLightAccentHeader .btPreloader .animation > div:first-child,
+    .btTransparentLightHeader .btPreloader .animation > div:first-child {
+        background-color: #ffa800;
+    }
+    .btPreloader .animation p {
+        font-family: "Montserrat";
+    }
+    .btLoader {
+        border-top: 2px solid #ffa800 !important;
+        border-right: 2px solid #ffa800 !important;
+    }
+    .btLoader:before,
+    .btLoader:after {
+        border-top: 2px solid #ffa800 !important;
+        border-right: 2px solid #ffa800 !important;
+    }
+    .btNoSearchResults .bt_bb_port #searchform input[type="submit"] {
+        -webkit-box-shadow: 0 0 0 3em #ffa800 inset;
+        box-shadow: 0 0 0 3em #ffa800 inset;
+    }
+    .btNoSearchResults .bt_bb_port #searchform input[type="submit"]:hover {
+        -webkit-box-shadow: 0 0 0 2px #ffa800 inset;
+        box-shadow: 0 0 0 2px #ffa800 inset;
+        color: #ffa800;
+    }
+    .mainHeader {
+        font-family: "Montserrat";
+    }
+    .mainHeader a:hover {
+        color: #ffa800;
+    }
+    .menuPort {
+        font-family: "Montserrat";
+    }
+    .menuPort nav > ul > li > a {
+        line-height: 90px;
+    }
+    .btTextLogo {
+        font-family: "Montserrat";
+        line-height: 90px;
+    }
+    .btLogoArea .logo img {
+        height: 90px;
+    }
+    .btTransparentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before,
+    .btTransparentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before,
+    .btOpacityLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before,
+    .btAccentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before,
+    .btGreyLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before,
+    .btAccentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before,
+    .btLightDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before,
+    .btHasAltLogo.btStickyHeaderActive .btHorizontalMenuTrigger:hover .bt_bb_icon:before,
+    .btTransparentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after,
+    .btTransparentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after,
+    .btOpacityLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after,
+    .btAccentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after,
+    .btGreyLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after,
+    .btAccentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after,
+    .btLightDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after,
+    .btHasAltLogo.btStickyHeaderActive .btHorizontalMenuTrigger:hover .bt_bb_icon:after {
+        border-top-color: #ffa800;
+    }
+    .btTransparentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before,
+    .btTransparentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before,
+    .btOpacityLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before,
+    .btAccentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before,
+    .btGreyLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before,
+    .btAccentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before,
+    .btLightDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before,
+    .btHasAltLogo.btStickyHeaderActive .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before {
+        border-top-color: #ffa800;
+    }
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-ancestor li.current-menu-ancestor > a,
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-ancestor li.current-menu-item > a,
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-item li.current-menu-ancestor > a,
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-item li.current-menu-item > a {
+        color: #ffa800;
+    }
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-ancestor > a:before,
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-item > a:before {
+        background-color: #ffa800;
+    }
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-ancestor li.current-menu-ancestor > a,
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-ancestor li.current-menu-item > a,
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-item li.current-menu-ancestor > a,
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-item li.current-menu-item > a {
+        color: #ffa800;
+    }
+    .btMenuHorizontal .menuPort ul ul li a:hover {
+        color: #ffa800;
+    }
+    body.btMenuHorizontal .subToggler {
+        line-height: 90px;
+    }
+    .btMenuHorizontal .menuPort > nav > ul > li > ul li a:hover {
+        -webkit-box-shadow: inset 5px 0 0 0 #ffa800;
+        box-shadow: inset 5px 0 0 0 #ffa800;
+    }
+    .btMenuHorizontal .menuPort > nav > ul > li:not(.btMenuWideDropdown) > ul li a:hover {
+        -webkit-box-shadow: inset 5px 0 0 0 #ffa800;
+        box-shadow: inset 5px 0 0 0 #ffa800;
+    }
+    .btMenuHorizontal .menuPort > nav > ul > li:not(.btMenuWideDropdown) > ul li:first-child > a {
+        -webkit-box-shadow: inset 0 5px 0 0 #ffa800;
+        box-shadow: inset 0 5px 0 0 #ffa800;
+    }
+    .btMenuHorizontal .menuPort > nav > ul > li:not(.btMenuWideDropdown) > ul li:first-child > a:hover {
+        -webkit-box-shadow: inset 5px 5px 0 0 #ffa800;
+        box-shadow: inset 5px 5px 0 0 #ffa800;
+    }
+    html:not(.touch) body.btMenuHorizontal .menuPort > nav > ul > li.btMenuWideDropdown > ul > li > a {
+        color: #ffa800;
+        -webkit-box-shadow: inset 0 5px 0 0 #ffa800;
+        box-shadow: inset 0 5px 0 0 #ffa800;
+    }
+    html:not(.touch) body.btMenuHorizontal .menuPort > nav > ul > li.btMenuWideDropdown > ul > li > a:hover {
+        -webkit-box-shadow: inset 5px 5px 0 0 #ffa800;
+        box-shadow: inset 5px 5px 0 0 #ffa800;
+    }
+    .btMenuHorizontal .topBarInMenu {
+        height: 90px;
+    }
+    .btMenuVertical.btOpacityLightHeader .mainHeader {
+        background-color: #ffa800;
+    }
+    .btAccentLightHeader .btBelowLogoArea,
+    .btAccentLightHeader .topBar {
+        background-color: #ffa800;
+    }
+    .btAccentLightHeader .btBelowLogoArea a:hover,
+    .btAccentLightHeader .topBar a:hover {
+        color: #f93d2a;
+    }
+    .btGreyLightHeader .btBelowLogoArea a:hover,
+    .btGreyLightHeader .topBar a:hover {
+        color: #ffa800;
+    }
+    .btAccentDarkHeader .btBelowLogoArea,
+    .btAccentDarkHeader .topBar {
+        background-color: #ffa800;
+    }
+    .btAccentDarkHeader .btBelowLogoArea a:hover,
+    .btAccentDarkHeader .topBar a:hover {
+        color: #f93d2a;
+    }
+    .btLightAccentHeader .btLogoArea,
+    .btLightAccentHeader .btVerticalHeaderTop {
+        background-color: #ffa800;
+    }
+    .btLightAccentHeader.btMenuHorizontal.btBelowMenu .mainHeader .btLogoArea {
+        background-color: #ffa800;
+    }
+    .btMenuVertical .mainHeader .btCloseVertical:before:hover {
+        color: #ffa800;
+    }
+    .btMenuHorizontal .topBarInLogoArea {
+        height: 90px;
+    }
+    .btMenuHorizontal .topBarInLogoArea .topBarInLogoAreaCell {
+        border: 0 solid #ffa800;
+    }
+    .btMenuVertical .mainHeader .btCloseVertical:before:hover {
+        color: #ffa800;
+    }
+    .btDarkSkin .btSiteFooterCopyMenu .port:before,
+    .btLightSkin .btDarkSkin .btSiteFooterCopyMenu .port:before,
+    .btDarkSkin.btLightSkin .btDarkSkin .btSiteFooterCopyMenu .port:before {
+        background-color: #ffa800;
+    }
+    article .bt_bb_headline a:hover {
+        color: #ffa800;
+    }
+    .btPostSingleItemStandard .btArticleShareEtc .btReadMoreColumn .bt_bb_button a {
+        background: #ffa800;
+    }
+    .btArticleSuperMeta dl {
+        border: 6px solid #ffa800;
+    }
+    .btMediaBox.btQuote:before,
+    .btMediaBox.btLink:before {
+        background-color: #ffa800;
+    }
+    .btShareColumn .bt_bb_icon .bt_bb_icon_holder:hover:before,
+    .btShareRow .bt_bb_icon .bt_bb_icon_holder:hover:before,
+    .btAuthorSocial .bt_bb_icon .bt_bb_icon_holder:hover:before {
+        -webkit-box-shadow: 0 0 0 1em #ffa800 inset;
+        box-shadow: 0 0 0 1em #ffa800 inset;
+    }
+    .btShareColumn .bt_bb_icon:hover .bt_bb_icon_holder:before,
+    .btShareRow .bt_bb_icon:hover .bt_bb_icon_holder:before,
+    .btAuthorSocial .bt_bb_icon:hover .bt_bb_icon_holder:before {
+        -webkit-box-shadow: 0 0 0 1em #ffa800 inset;
+        box-shadow: 0 0 0 1em #ffa800 inset;
+    }
+    .btDarkSkin .btShareColumn .bt_bb_icon:hover .bt_bb_icon_holder:before,
+    .btLightSkin .btDarkSkin .btShareColumn .bt_bb_icon:hover .bt_bb_icon_holder:before,
+    .btDarkSkin.btLightSkin .btDarkSkin .btShareColumn .bt_bb_icon:hover .bt_bb_icon_holder:before,
+    .btDarkSkin .btShareRow .bt_bb_icon:hover .bt_bb_icon_holder:before,
+    .btLightSkin .btDarkSkin .btShareRow .bt_bb_icon:hover .bt_bb_icon_holder:before,
+    .btDarkSkin.btLightSkin .btDarkSkin .btShareRow .bt_bb_icon:hover .bt_bb_icon_holder:before,
+    .btDarkSkin .btAuthorSocial .bt_bb_icon:hover .bt_bb_icon_holder:before,
+    .btLightSkin .btDarkSkin .btAuthorSocial .bt_bb_icon:hover .bt_bb_icon_holder:before,
+    .btDarkSkin.btLightSkin .btDarkSkin .btAuthorSocial .bt_bb_icon:hover .bt_bb_icon_holder:before {
+        -webkit-box-shadow: 0 0 0 1em #ffa800 inset;
+        box-shadow: 0 0 0 1em #ffa800 inset;
+    }
+    .sticky.btArticleListItem .btArticleHeadline h1 .bt_bb_headline_content span a:after,
+    .sticky.btArticleListItem .btArticleHeadline h2 .bt_bb_headline_content span a:after,
+    .sticky.btArticleListItem .btArticleHeadline h3 .bt_bb_headline_content span a:after,
+    .sticky.btArticleListItem .btArticleHeadline h4 .bt_bb_headline_content span a:after,
+    .sticky.btArticleListItem .btArticleHeadline h5 .bt_bb_headline_content span a:after,
+    .sticky.btArticleListItem .btArticleHeadline h6 .bt_bb_headline_content span a:after,
+    .sticky.btArticleListItem .btArticleHeadline h7 .bt_bb_headline_content span a:after,
+    .sticky.btArticleListItem .btArticleHeadline h8 .bt_bb_headline_content span a:after {
+        color: #ffa800;
+    }
+    .post-password-form p:first-child {
+        color: #f93d2a;
+    }
+    .post-password-form p:nth-child(2) input[type="submit"] {
+        background: #ffa800;
+    }
+    .btPagination {
+        font-family: "Montserrat";
+    }
+    .btPagination .paging a:hover {
+        color: #ffa800;
+    }
+    .btPagination .paging a:hover:after {
+        border-color: #ffa800;
+        color: #ffa800;
+    }
+    .btPrevNextNav .btPrevNext .btPrevNextItem .btPrevNextTitle {
+        font-family: "Montserrat";
+    }
+    .btPrevNextNav .btPrevNext:hover .btPrevNextTitle {
+        color: #ffa800;
+    }
+    .btArticleCategories a:hover {
+        color: #ffa800;
+    }
+    .btArticleCategories a:not(:first-child):before {
+        background-color: #ffa800;
+    }
+    .bt-comments-box .commentTxt p.edit-link,
+    .bt-comments-box .commentTxt p.reply {
+        font-family: "Montserrat";
+    }
+    .comment-awaiting-moderation {
+        color: #ffa800;
+    }
+    a#cancel-comment-reply-link:hover {
+        color: #ffa800;
+    }
+    .btCommentSubmit {
+        background: #ffa800;
+    }
+    .sidebar .widget_bt_bb_recent_posts ul li .bt_bb_headline .bt_bb_headline_content a:hover,
+    .btSidebar .widget_bt_bb_recent_posts ul li .bt_bb_headline .bt_bb_headline_content a:hover,
+    .btSiteFooterWidgets .widget_bt_bb_recent_posts ul li .bt_bb_headline .bt_bb_headline_content a:hover {
+        color: #ffa800 !important;
+    }
+    body:not(.btNoDashInSidebar) .btBox > h4:after,
+    body:not(.btNoDashInSidebar) .btCustomMenu > h4:after,
+    body:not(.btNoDashInSidebar) .btTopBox > h4:after {
+        border-bottom: 3px solid #ffa800;
+    }
+    .btBox ul li.current-menu-item > a,
+    .btCustomMenu ul li.current-menu-item > a,
+    .btTopBox ul li.current-menu-item > a {
+        color: #ffa800;
+    }
+    .btBox .btImageTextWidget .btImageTextWidgetText .bt_bb_headline .bt_bb_headline_content span a:hover,
+    .btCustomMenu .btImageTextWidget .btImageTextWidgetText .bt_bb_headline .bt_bb_headline_content span a:hover,
+    .btTopBox .btImageTextWidget .btImageTextWidgetText .bt_bb_headline .bt_bb_headline_content span a:hover {
+        color: #ffa800;
+    }
+    .widget_calendar table caption {
+        background: #ffa800;
+        font-family: "Montserrat";
+    }
+    .widget_calendar table tbody tr td#today {
+        color: #ffa800;
+    }
+    .widget_rss li a.rsswidget {
+        font-family: "Montserrat";
+    }
+    .widget_shopping_cart .total {
+        font-family: "Montserrat";
+    }
+    .widget_shopping_cart .buttons .button {
+        background: #ffa800;
+    }
+    .widget_shopping_cart .widget_shopping_cart_content .mini_cart_item .ppRemove a.remove {
+        background-color: #ffa800;
+    }
+    .widget_shopping_cart .widget_shopping_cart_content .mini_cart_item .ppRemove a.remove:hover {
+        background-color: #f93d2a;
+    }
+    .menuPort .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetIcon span.cart-contents,
+    .topTools .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetIcon span.cart-contents,
+    .topBarInLogoArea .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetIcon span.cart-contents {
+        font: normal 0.9em/1 "Montserrat";
+    }
+    .btMenuVertical .menuPort .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetInnerContent .verticalMenuCartToggler,
+    .btMenuVertical .topTools .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetInnerContent .verticalMenuCartToggler,
+    .btMenuVertical .topBarInLogoArea .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetInnerContent .verticalMenuCartToggler {
+        background-color: #ffa800;
+    }
+    .widget_recent_reviews {
+        font-family: "Montserrat";
+    }
+    .btBox .tagcloud a:hover {
+        color: #ffa800 !important;
+    }
+    .btTags ul li a:hover {
+        color: #ffa800 !important;
+    }
+    .topTools .btIconWidget:hover,
+    .topBarInMenu .btIconWidget:hover {
+        color: #ffa800;
+    }
+    .btSidebar .btIconWidget:hover .btIconWidgetText,
+    footer .btIconWidget:hover .btIconWidgetText,
+    .topBarInLogoArea .btIconWidget:hover .btIconWidgetText {
+        color: #ffa800;
+    }
+    .btAccentIconWidget.btIconWidget .btIconWidgetIcon {
+        color: #ffa800;
+    }
+    .btSiteFooterWidgets .btSearch button:hover:before,
+    .btSidebar .btSearch button:hover:before,
+    .btSidebar .widget_product_search button:hover:before,
+    .woocommerce .btSidebar .btSearch button:hover:before {
+        color: #ffa800;
+    }
+    .btSearchInner.btFromTopBox .btSearchInnerClose .bt_bb_icon a.bt_bb_icon_holder {
+        color: #ffa800;
+    }
+    .btSearchInner.btFromTopBox .btSearchInnerClose .bt_bb_icon:hover a.bt_bb_icon_holder {
+        color: #b37600;
+    }
+    .btSearchInner.btFromTopBox button:hover:before {
+        color: #ffa800;
+    }
+    div.btButtonWidget a.btButtonWidgetLink {
+        background-color: #ffa800;
+    }
+    .btAccentDarkHeader .topBarInMenu div.btButtonWidget a {
+        background-color: #ffa800;
+    }
+    .bt_bb_headline .bt_bb_headline_superheadline {
+        font-family: "Montserrat";
+    }
+    .bt_bb_headline.bt_bb_subheadline .bt_bb_headline_subheadline {
+        font-family: "Montserrat";
+    }
+    .bt_bb_headline h1 b,
+    .bt_bb_headline h2 b,
+    .bt_bb_headline h3 b,
+    .bt_bb_headline h4 b,
+    .bt_bb_headline h5 b,
+    .bt_bb_headline h6 b {
+        color: #ffa800;
+    }
+    .btHasBgImage.bt_bb_headline .bt_bb_headline_content span {
+        background-color: #ffa800;
+    }
+    .bt_bb_progress_bar.bt_bb_style_filled .bt_bb_progress_bar_inner {
+        background-image: -webkit-linear-gradient(135deg, #ffa800 33%, #f93d2a 66%);
+        background-image: -moz-linear-gradient(135deg, #ffa800 33%, #f93d2a 66%);
+        background-image: -ms-linear-gradient(135deg, #ffa800 33%, #f93d2a 66%);
+        background-image: -o-linear-gradient(135deg, #ffa800 33%, #f93d2a 66%);
+        background-image: -webkit-linear-gradient(315deg, #ffa800 33%, #f93d2a 66%);
+        background-image: -moz-linear-gradient(315deg, #ffa800 33%, #f93d2a 66%);
+        background-image: linear-gradient(135deg, #ffa800 33%, #f93d2a 66%);
+    }
+    .bt_bb_latest_posts .bt_bb_latest_posts_item .bt_bb_latest_posts_item_content .bt_bb_latest_posts_item_meta > div {
+        font-family: "Montserrat";
+    }
+    .bt_bb_latest_posts .bt_bb_latest_posts_item .bt_bb_latest_posts_item_content .bt_bb_latest_posts_item_meta .bt_bb_latest_posts_item_author a:hover {
+        color: #ffa800;
+    }
+    .bt_bb_latest_posts .bt_bb_latest_posts_item .bt_bb_latest_posts_item_content .bt_bb_latest_posts_item_meta .bt_bb_latest_posts_item_category .post-categories li a {
+        font-family: "Montserrat";
+    }
+    .bt_bb_latest_posts .bt_bb_latest_posts_item .bt_bb_latest_posts_item_content .bt_bb_latest_posts_item_meta .bt_bb_latest_posts_item_category .post-categories li a:hover {
+        color: #ffa800;
+    }
+    .bt_bb_latest_posts .bt_bb_latest_posts_item .bt_bb_latest_posts_item_content .bt_bb_latest_posts_item_title a:hover {
+        color: #ffa800;
+    }
+    .bt_bb_masonry_post_grid .bt_bb_grid_item_post_content .bt_bb_grid_item_category .post-categories li a {
+        font-family: "Montserrat";
+    }
+    .bt_bb_masonry_post_grid .bt_bb_grid_item_post_content .bt_bb_grid_item_category .post-categories li a:hover {
+        color: #ffa800;
+    }
+    .bt_bb_masonry_post_grid .bt_bb_grid_item_post_content .bt_bb_grid_item_meta {
+        font-family: "Montserrat";
+    }
+    .bt_bb_masonry_post_grid .bt_bb_grid_item_post_content .bt_bb_grid_item_meta .bt_bb_grid_item_item_author a:hover {
+        color: #ffa800;
+    }
+    .bt_bb_masonry_post_grid .bt_bb_grid_item_post_content .bt_bb_grid_item_post_title a:hover {
+        color: #ffa800;
+    }
+    .bt_bb_icon .bt_bb_icon_holder > span {
+        font-family: "Montserrat";
+    }
+    .bt_bb_service .bt_bb_service_content .bt_bb_service_content_title {
+        font-family: "Montserrat";
+    }
+    .bt_bb_service .bt_bb_service_content .bt_bb_service_content_text b {
+        color: #ffa800;
+    }
+    .bt_bb_service:hover .bt_bb_service_content_title a {
+        color: #ffa800;
+    }
+    .bt_bb_accordion .bt_bb_accordion_item .bt_bb_accordion_item_number {
+        background-color: #ffa800;
+    }
+    .bt_bb_accordion .bt_bb_accordion_item .bt_bb_accordion_item_title {
+        font-family: "Montserrat";
+    }
+    .bt_bb_accordion .bt_bb_accordion_item .bt_bb_accordion_item_title:after {
+        font-family: "Montserrat";
+    }
+    .bt_bb_accordion .bt_bb_accordion_item:hover .bt_bb_accordion_item_title {
+        background: #ffa800;
+    }
+    .bt_bb_accordion .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+        background: #ffa800;
+    }
+    .bt_bb_custom_menu div ul a:hover {
+        color: #ffa800;
+    }
+    .bt_bb_tabs.bt_bb_style_simple ul.bt_bb_tabs_header li.on {
+        border-color: #ffa800;
+    }
+    .bt_bb_counter_holder .bt_bb_counter {
+        font-family: "Montserrat";
+    }
+    .wpcf7-form .wpcf7-submit {
+        background-color: #ffa800 !important;
+    }
+    div.wpcf7-validation-errors,
+    div.wpcf7-acceptance-missing {
+        border: 2px solid #ffa800;
+    }
+    span.wpcf7-not-valid-tip {
+        color: #ffa800;
+    }
+    .btLandingTitle.bt_bb_headline.btHasBgImage .bt_bb_headline_content span {
+        background-color: #ffa800;
+    }
+    .btLandingNewsletter input[type="submit"] {
+        background-color: #f93d2a !important;
+    }
+    .products ul li.product .btWooShopLoopItemInner .added_to_cart:hover,
+    ul.products li.product .btWooShopLoopItemInner .added_to_cart:hover {
+        color: #ffa800;
+    }
+    .products ul li.product .onsale,
+    ul.products li.product .onsale {
+        background: #f93d2a;
+    }
+    nav.woocommerce-pagination ul li a,
+    nav.woocommerce-pagination ul li span {
+        color: #ffa800;
+    }
+    nav.woocommerce-pagination ul li a:focus,
+    nav.woocommerce-pagination ul li a.next,
+    nav.woocommerce-pagination ul li a.prev {
+        color: #ffa800;
+    }
+    div.product .onsale {
+        background: #f93d2a;
+    }
+    div.product div.images .woocommerce-product-gallery__trigger:after {
+        -webkit-box-shadow: 0 0 0 2em #ffa800 inset, 0 0 0 2em rgba(255, 255, 255, 0.5) inset;
+        box-shadow: 0 0 0 2em #ffa800 inset, 0 0 0 2em rgba(255, 255, 255, 0.5) inset;
+    }
+    div.product div.images .woocommerce-product-gallery__trigger:hover:after {
+        -webkit-box-shadow: 0 0 0 1px #ffa800 inset, 0 0 0 2em rgba(255, 255, 255, 0.5) inset;
+        box-shadow: 0 0 0 1px #ffa800 inset, 0 0 0 2em rgba(255, 255, 255, 0.5) inset;
+        color: #ffa800;
+    }
+    table.shop_table .coupon .input-text {
+        color: #ffa800;
+    }
+    table.shop_table td a:hover,
+    table.shop_table th a:hover {
+        color: #ffa800;
+    }
+    table.shop_table td.product-remove a.remove:hover {
+        background-color: #f93d2a;
+    }
+    ul.wc_payment_methods li .about_paypal {
+        color: #ffa800;
+    }
+    .woocommerce-MyAccount-navigation ul li a {
+        border-bottom: 2px solid #ffa800;
+    }
+    .woocommerce-info a:not(.button),
+    .woocommerce-message a:not(.button) {
+        color: #ffa800;
+    }
+    .woocommerce-error {
+        border-top-color: #f93d2a;
+    }
+    .woocommerce-message:before,
+    .woocommerce-info:before {
+        color: #ffa800;
+    }
+    .woocommerce-error:before {
+        color: #f93d2a;
+    }
+    .woocommerce .btSidebar a.button,
+    .woocommerce .btContent a.button,
+    .woocommerce-page .btSidebar a.button,
+    .woocommerce-page .btContent a.button,
+    .woocommerce .btSidebar input[type="submit"],
+    .woocommerce .btContent input[type="submit"],
+    .woocommerce-page .btSidebar input[type="submit"],
+    .woocommerce-page .btContent input[type="submit"],
+    .woocommerce .btSidebar button[type="submit"],
+    .woocommerce .btContent button[type="submit"],
+    .woocommerce-page .btSidebar button[type="submit"],
+    .woocommerce-page .btContent button[type="submit"],
+    .woocommerce .btSidebar input.button,
+    .woocommerce .btContent input.button,
+    .woocommerce-page .btSidebar input.button,
+    .woocommerce-page .btContent input.button,
+    .woocommerce .btSidebar input.alt:hover,
+    .woocommerce .btContent input.alt:hover,
+    .woocommerce-page .btSidebar input.alt:hover,
+    .woocommerce-page .btContent input.alt:hover,
+    .woocommerce .btSidebar a.button.alt:hover,
+    .woocommerce .btContent a.button.alt:hover,
+    .woocommerce-page .btSidebar a.button.alt:hover,
+    .woocommerce-page .btContent a.button.alt:hover,
+    .woocommerce .btSidebar .button.alt:hover,
+    .woocommerce .btContent .button.alt:hover,
+    .woocommerce-page .btSidebar .button.alt:hover,
+    .woocommerce-page .btContent .button.alt:hover,
+    .woocommerce .btSidebar button.alt:hover,
+    .woocommerce .btContent button.alt:hover,
+    .woocommerce-page .btSidebar button.alt:hover,
+    .woocommerce-page .btContent button.alt:hover,
+    div.woocommerce a.button,
+    div.woocommerce input[type="submit"],
+    div.woocommerce button[type="submit"],
+    div.woocommerce input.button,
+    div.woocommerce input.alt:hover,
+    div.woocommerce a.button.alt:hover,
+    div.woocommerce .button.alt:hover,
+    div.woocommerce button.alt:hover {
+        background: #ffa800;
+    }
+    .woocommerce .btSidebar a.button,
+    .woocommerce .btContent a.button,
+    .woocommerce-page .btSidebar a.button,
+    .woocommerce-page .btContent a.button,
+    .woocommerce .btSidebar input[type="submit"],
+    .woocommerce .btContent input[type="submit"],
+    .woocommerce-page .btSidebar input[type="submit"],
+    .woocommerce-page .btContent input[type="submit"],
+    .woocommerce .btSidebar button[type="submit"],
+    .woocommerce .btContent button[type="submit"],
+    .woocommerce-page .btSidebar button[type="submit"],
+    .woocommerce-page .btContent button[type="submit"],
+    .woocommerce .btSidebar input.button,
+    .woocommerce .btContent input.button,
+    .woocommerce-page .btSidebar input.button,
+    .woocommerce-page .btContent input.button,
+    .woocommerce .btSidebar input.alt:hover,
+    .woocommerce .btContent input.alt:hover,
+    .woocommerce-page .btSidebar input.alt:hover,
+    .woocommerce-page .btContent input.alt:hover,
+    .woocommerce .btSidebar a.button.alt:hover,
+    .woocommerce .btContent a.button.alt:hover,
+    .woocommerce-page .btSidebar a.button.alt:hover,
+    .woocommerce-page .btContent a.button.alt:hover,
+    .woocommerce .btSidebar .button.alt:hover,
+    .woocommerce .btContent .button.alt:hover,
+    .woocommerce-page .btSidebar .button.alt:hover,
+    .woocommerce-page .btContent .button.alt:hover,
+    .woocommerce .btSidebar button.alt:hover,
+    .woocommerce .btContent button.alt:hover,
+    .woocommerce-page .btSidebar button.alt:hover,
+    .woocommerce-page .btContent button.alt:hover,
+    div.woocommerce a.button,
+    div.woocommerce input[type="submit"],
+    div.woocommerce button[type="submit"],
+    div.woocommerce input.button,
+    div.woocommerce input.alt:hover,
+    div.woocommerce a.button.alt:hover,
+    div.woocommerce .button.alt:hover,
+    div.woocommerce button.alt:hover {
+        background: #ffa800;
+    }
+    .woocommerce .btSidebar a.button:hover,
+    .woocommerce .btContent a.button:hover,
+    .woocommerce-page .btSidebar a.button:hover,
+    .woocommerce-page .btContent a.button:hover,
+    .woocommerce .btSidebar input[type="submit"]:hover,
+    .woocommerce .btContent input[type="submit"]:hover,
+    .woocommerce-page .btSidebar input[type="submit"]:hover,
+    .woocommerce-page .btContent input[type="submit"]:hover,
+    .woocommerce .btSidebar button[type="submit"]:hover,
+    .woocommerce .btContent button[type="submit"]:hover,
+    .woocommerce-page .btSidebar button[type="submit"]:hover,
+    .woocommerce-page .btContent button[type="submit"]:hover,
+    .woocommerce .btSidebar input.button:hover,
+    .woocommerce .btContent input.button:hover,
+    .woocommerce-page .btSidebar input.button:hover,
+    .woocommerce-page .btContent input.button:hover,
+    .woocommerce .btSidebar input.alt,
+    .woocommerce .btContent input.alt,
+    .woocommerce-page .btSidebar input.alt,
+    .woocommerce-page .btContent input.alt,
+    .woocommerce .btSidebar a.button.alt,
+    .woocommerce .btContent a.button.alt,
+    .woocommerce-page .btSidebar a.button.alt,
+    .woocommerce-page .btContent a.button.alt,
+    .woocommerce .btSidebar .button.alt,
+    .woocommerce .btContent .button.alt,
+    .woocommerce-page .btSidebar .button.alt,
+    .woocommerce-page .btContent .button.alt,
+    .woocommerce .btSidebar button.alt,
+    .woocommerce .btContent button.alt,
+    .woocommerce-page .btSidebar button.alt,
+    .woocommerce-page .btContent button.alt,
+    div.woocommerce a.button:hover,
+    div.woocommerce input[type="submit"]:hover,
+    div.woocommerce button[type="submit"]:hover,
+    div.woocommerce input.button:hover,
+    div.woocommerce input.alt,
+    div.woocommerce a.button.alt,
+    div.woocommerce .button.alt,
+    div.woocommerce button.alt {
+        background: #ffa800;
+    }
+    .star-rating span:before {
+        color: #ffa800;
+    }
+    p.stars a[class^="star-"].active:after,
+    p.stars a[class^="star-"]:hover:after {
+        color: #ffa800;
+    }
+    .select2-container--default .select2-results__option--highlighted[aria-selected],
+    .select2-container--default .select2-results__option--highlighted[data-selected] {
+        background-color: #ffa800;
+    }
+    .woocommerce-cart-form thead tr {
+        background-color: #ffa800;
+    }
+    .btQuoteBooking .btContactNext {
+        border-color: #ffa800;
+        color: #ffa800;
+    }
+    .btQuoteBooking .btQuoteSwitch.on .btQuoteSwitchInner {
+        background: #ffa800;
+    }
+    .btQuoteBooking input[type="text"]:focus,
+    .btQuoteBooking input[type="email"]:focus,
+    .btQuoteBooking input[type="password"]:focus,
+    .btQuoteBooking .btQuoteBooking textarea:focus,
+    .btQuoteBooking .fancy-select .trigger:focus,
+    .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus,
+    .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus {
+        -webkit-box-shadow: 0 0 4px 0 #ffa800;
+        box-shadow: 0 0 4px 0 #ffa800;
+    }
+    .btLightSkin .btQuoteBooking input[type="text"]:focus,
+    .btDarkSkin .btLightSkin .btQuoteBooking input[type="text"]:focus,
+    .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking input[type="text"]:focus,
+    .btLightSkin .btQuoteBooking input[type="email"]:focus,
+    .btDarkSkin .btLightSkin .btQuoteBooking input[type="email"]:focus,
+    .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking input[type="email"]:focus,
+    .btLightSkin .btQuoteBooking input[type="password"]:focus,
+    .btDarkSkin .btLightSkin .btQuoteBooking input[type="password"]:focus,
+    .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking input[type="password"]:focus,
+    .btLightSkin .btQuoteBooking .btQuoteBooking textarea:focus,
+    .btDarkSkin .btLightSkin .btQuoteBooking .btQuoteBooking textarea:focus,
+    .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking .btQuoteBooking textarea:focus,
+    .btLightSkin .btQuoteBooking .fancy-select .trigger:focus,
+    .btDarkSkin .btLightSkin .btQuoteBooking .fancy-select .trigger:focus,
+    .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking .fancy-select .trigger:focus,
+    .btLightSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus,
+    .btDarkSkin .btLightSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus,
+    .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus,
+    .btLightSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus,
+    .btDarkSkin .btLightSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus,
+    .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus {
+        -webkit-box-shadow: 0 0 4px 0 #ffa800;
+        box-shadow: 0 0 4px 0 #ffa800;
+    }
+    .btDarkSkin .btQuoteBooking input[type="text"]:focus,
+    .btLightSkin .btDarkSkin .btQuoteBooking input[type="text"]:focus,
+    .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking input[type="text"]:focus,
+    .btDarkSkin .btQuoteBooking input[type="email"]:focus,
+    .btLightSkin .btDarkSkin .btQuoteBooking input[type="email"]:focus,
+    .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking input[type="email"]:focus,
+    .btDarkSkin .btQuoteBooking input[type="password"]:focus,
+    .btLightSkin .btDarkSkin .btQuoteBooking input[type="password"]:focus,
+    .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking input[type="password"]:focus,
+    .btDarkSkin .btQuoteBooking .btQuoteBooking textarea:focus,
+    .btLightSkin .btDarkSkin .btQuoteBooking .btQuoteBooking textarea:focus,
+    .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking .btQuoteBooking textarea:focus,
+    .btDarkSkin .btQuoteBooking .fancy-select .trigger:focus,
+    .btLightSkin .btDarkSkin .btQuoteBooking .fancy-select .trigger:focus,
+    .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking .fancy-select .trigger:focus,
+    .btDarkSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus,
+    .btLightSkin .btDarkSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus,
+    .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus,
+    .btDarkSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus,
+    .btLightSkin .btDarkSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus,
+    .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus {
+        -webkit-box-shadow: 0 0 4px 0 #ffa800;
+        box-shadow: 0 0 4px 0 #ffa800;
+    }
+    .btQuoteBooking .dd.ddcommon.borderRadiusTp .ddTitleText,
+    .btQuoteBooking .btQuoteBooking .dd.ddcommon.borderRadiusBtm .ddTitleText {
+        -webkit-box-shadow: 5px 0 0 #ffa800 inset, 0 2px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 5px 0 0 #ffa800 inset, 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    .btQuoteBooking .ui-slider .ui-slider-handle {
+        background: #ffa800;
+    }
+    .btQuoteBooking .btQuoteBookingForm .btQuoteTotal {
+        background: #ffa800;
+    }
+    .btQuoteBooking .btContactFieldMandatory.btContactFieldError input,
+    .btQuoteBooking .btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea {
+        -webkit-box-shadow: 0 0 0 1px #ffa800 inset;
+        box-shadow: 0 0 0 1px #ffa800 inset;
+        border-color: #ffa800;
+    }
+    .btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius .ddTitleText {
+        -webkit-box-shadow: 0 0 0 2px #ffa800 inset;
+        box-shadow: 0 0 0 2px #ffa800 inset;
+    }
+    .btQuoteBooking .btSubmitMessage {
+        color: #ffa800;
+    }
+    .btQuoteBooking .btContactSubmit {
+        background-color: #ffa800;
+    }
+    .btDatePicker .ui-datepicker-header {
+        background-color: #ffa800;
+    }
+    .btSpecialQuote.btQuoteBooking .btQuoteBookingForm .btQuoteItem label {
+        font-family: "Montserrat";
+    }
+    .btSpecialQuote.btQuoteBooking.btHeatingQuote .btQuoteTotal .btQuoteTotalCurrency,
+    .btSpecialQuote.btQuoteBooking.btHeatingQuote .btQuoteTotal .btQuoteTotalCalc {
+        color: #ffa800;
+    }
+    a .bt_bb_progress_bar_advanced .progressbar-text {
+        color: #ffa800;
+    }
+    .bt_bb_progress_bar_advanced p {
+        font-family: "Montserrat";
+    }
+    .bt_bb_steps .bt_bb_steps_content .bt_bb_steps_content_title {
+        font-family: "Montserrat";
+    }
+    .bt_bb_steps .bt_bb_steps_content .bt_bb_steps_content_text b {
+        color: #ffa800;
+    }
+    .bt_bb_steps:hover .bt_bb_steps_content_title a {
+        color: #ffa800;
+    }
+    .bt_bb_single_product .bt_bb_single_product_content .bt_bb_single_product_categories span.btProductCategories a.btProductCategory {
+        font-family: "Montserrat";
+    }
+    .bt_bb_single_product .bt_bb_single_product_content .bt_bb_single_product_categories span.btProductCategories a.btProductCategory:hover {
+        color: #ffa800;
+    }
+    .bt_bb_single_product .bt_bb_single_product_content .bt_bb_single_product_categories span.btProductCategories a.btProductCategory:not(:first-child):before {
+        background-color: #ffa800;
+    }
+    .bt_bb_single_product .bt_bb_single_product_content .bt_bb_single_product_title {
+        font-family: "Montserrat";
+    }
+    .bt_bb_single_product .bt_bb_single_product_content .bt_bb_single_product_title a:hover {
+        color: #ffa800;
+    }
+    .bt_bb_single_product .bt_bb_single_product_content .bt_bb_single_product_description {
+        font-family: "Montserrat";
+    }
+    .bt_bb_single_product .bt_bb_single_product_content .bt_bb_single_product_price {
+        font-family: "Montserrat";
+    }
+    .bt_bb_single_product .bt_bb_single_product_content .bt_bb_single_product_price_cart a.added_to_cart:hover {
+        color: #ffa800;
+    }
+    .wp-block-button__link:hover {
+        color: #ffa800 !important;
+    }
+    @font-face {
+        font-family: "Ac";
+        src: url("../wp-content/themes/prohauz/fonts/Ac/Ac.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/Ac/Ac.ttf") format("truetype");
+    }
+    *[data-ico-ac]:before {
+        font-family: Ac;
+        content: attr(data-ico-ac);
+    }
+    @font-face {
+        font-family: "Business";
+        src: url("../wp-content/themes/prohauz/fonts/Business/Business.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/Business/Business.ttf") format("truetype");
+    }
+    *[data-ico-business]:before {
+        font-family: Business;
+        content: attr(data-ico-business);
+    }
+    @font-face {
+        font-family: "Design";
+        src: url("../wp-content/themes/prohauz/fonts/Design/Design.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/Design/Design.ttf") format("truetype");
+    }
+    *[data-ico-design]:before {
+        font-family: Design;
+        content: attr(data-ico-design);
+    }
+    @font-face {
+        font-family: "Engineering";
+        src: url("../wp-content/themes/prohauz/fonts/Engineering/Engineering.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/Engineering/Engineering.ttf") format("truetype");
+    }
+    *[data-ico-engineering]:before {
+        font-family: Engineering;
+        content: attr(data-ico-engineering);
+    }
+    @font-face {
+        font-family: "Essential";
+        src: url("../wp-content/themes/prohauz/fonts/Essential/Essential.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/Essential/Essential.ttf") format("truetype");
+    }
+    *[data-ico-essential]:before {
+        font-family: Essential;
+        content: attr(data-ico-essential);
+    }
+    @font-face {
+        font-family: "FontAwesome";
+        src: url("../wp-content/themes/prohauz/fonts/FontAwesome/FontAwesome.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/FontAwesome/FontAwesome.ttf") format("truetype");
+    }
+    *[data-ico-fontawesome]:before {
+        font-family: FontAwesome;
+        content: attr(data-ico-fontawesome);
+    }
+    @font-face {
+        font-family: "FontAwesome5Brands";
+        src: url("../wp-content/themes/prohauz/fonts/FontAwesome5Brands/FontAwesome5Brands.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/FontAwesome5Brands/FontAwesome5Brands.ttf") format("truetype");
+    }
+    *[data-ico-fontawesome5brands]:before {
+        font-family: FontAwesome5Brands;
+        content: attr(data-ico-fontawesome5brands);
+    }
+    @font-face {
+        font-family: "FontAwesome5Regular";
+        src: url("../wp-content/themes/prohauz/fonts/FontAwesome5Regular/FontAwesome5Regular.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/FontAwesome5Regular/FontAwesome5Regular.ttf") format("truetype");
+    }
+    *[data-ico-fontawesome5regular]:before {
+        font-family: FontAwesome5Regular;
+        content: attr(data-ico-fontawesome5regular);
+    }
+    @font-face {
+        font-family: "FontAwesome5Solid";
+        src: url("../wp-content/themes/prohauz/fonts/FontAwesome5Solid/FontAwesome5Solid.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/FontAwesome5Solid/FontAwesome5Solid.ttf") format("truetype");
+    }
+    *[data-ico-fontawesome5solid]:before {
+        font-family: FontAwesome5Solid;
+        content: attr(data-ico-fontawesome5solid);
+    }
+    @font-face {
+        font-family: "Heating";
+        src: url("../wp-content/themes/prohauz/fonts/Heating/Heating.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/Heating/Heating.ttf") format("truetype");
+    }
+    *[data-ico-heating]:before {
+        font-family: Heating;
+        content: attr(data-ico-heating);
+    }
+    @font-face {
+        font-family: "Icon7Stroke";
+        src: url("../wp-content/themes/prohauz/fonts/Icon7Stroke/Icon7Stroke.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/Icon7Stroke/Icon7Stroke.ttf") format("truetype");
+    }
+    *[data-ico-icon7stroke]:before {
+        font-family: Icon7Stroke;
+        content: attr(data-ico-icon7stroke);
+    }
+    @font-face {
+        font-family: "Pipes";
+        src: url("../wp-content/themes/prohauz/fonts/Pipes/Pipes.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/Pipes/Pipes.ttf") format("truetype");
+    }
+    *[data-ico-pipes]:before {
+        font-family: Pipes;
+        content: attr(data-ico-pipes);
+    }
+    @font-face {
+        font-family: "Plumber";
+        src: url("../wp-content/themes/prohauz/fonts/Plumber/Plumber.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/Plumber/Plumber.ttf") format("truetype");
+    }
+    *[data-ico-plumber]:before {
+        font-family: Plumber;
+        content: attr(data-ico-plumber);
+    }
+    @font-face {
+        font-family: "Tools";
+        src: url("../wp-content/themes/prohauz/fonts/Tools/Tools.woff") format("woff"), url("../wp-content/themes/prohauz/fonts/Tools/Tools.ttf") format("truetype");
+    }
+    *[data-ico-tools]:before {
+        font-family: Tools;
+        content: attr(data-ico-tools);
+    } 
+
+    @media (max-width:767px){
+        .bt_bb_column.bt_bb_padding_30 .bt_bb_column_content{padding:0 !important;}
+    }
+    .covid_news{    position: absolute;
+        z-index: 9999999;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;}
+    .covid_news marquee{color:#FFF;}
+    .covid_news marquee a{ color: #db2410;}

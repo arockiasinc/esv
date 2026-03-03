@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://eastsideventilation.ca/sitemap.xml 
+User-agent: *
+Crawl-Delay: 3

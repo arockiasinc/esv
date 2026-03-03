@@ -1,0 +1,184 @@
+<?php include'../container/header.php' ?>
+
+<div class="btContentWrap btClear">
+<section
+    class="bt_bb_section gutter bt_bb_vertical_align_middle btHeadlineSquare btPageHeadline bt_bb_background_image bt_bb_background_overlay_dark_solid bt_bb_parallax btDarkSkin"
+    style="background-image: url('<?php echo $baseUrl; ?>/images/bg/featured-image-2.webp'); background-position: 50% -320.04px;"
+    data-parallax="0.8"
+    data-parallax-offset="0"
+>
+    <div class="bt_bb_port port">
+        <div class="bt_bb_cell">
+            <div class="bt_bb_cell_inner">
+                <div class="bt_bb_row" data-structure="">
+                    <div class="bt_bb_column bt_bb_align_center">
+                        <div class="bt_bb_column_content">
+                            <header class="bt_bb_headline bt_bb_style_square bt_bb_size_huge bt_bb_superheadline">
+                                <h1>
+                                    <!--<span class="bt_bb_headline_superheadline">
+                                        <span class="btBreadCrumbs">
+                                            <span><a href="../../index.html">Home</a></span><span><a href="../index.html">Heating & Furnaces</a></span>
+                                        </span>
+                                    </span>-->
+                                    <span class="bt_bb_headline_content"><span>Careers - HVAC Technician</span></span>
+                                </h1>
+                            </header>
+                        </div>
+                        <!-- /rowItemContent -->
+                    </div>
+                    <!-- /rowItem -->
+                </div>
+                <!-- /boldRow -->
+            </div>
+            <!-- boldCellInner -->
+        </div>
+        <!-- boldCell -->
+    </div>
+    <!-- port -->
+</section>
+                
+<section id="bt_bb_section6039c93d432eb" class="bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_medium bt_bb_color_scheme_13 bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+                <div class="bt_bb_port">
+                    <div class="bt_bb_cell">
+                        <div class="bt_bb_cell_inner">
+                            <div class="bt_bb_row_wrapper">
+                                <div class="bt_bb_row" data-structure="12">
+                                    <div class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_30 animated" data-width="12">
+                                        <div class="bt_bb_column_content">
+                                            <div class="bt_bb_column_content_inner">
+                                                <header class="bt_bb_headline bt_bb_subheadline_font_weight_medium bt_bb_dash_none bt_bb_size_large bt_bb_subheadline bt_bb_align_inherit">
+                                                    <h3>
+                                                        <span class="bt_bb_headline_content">
+                                                            <span>
+                                                                <a href="#" target="_self" title="Request  Service"><b>HVAC Technician</b> - Winnipeg</a>
+                                                            </span>
+                                                        </span>
+                                                    </h3>
+                                                    <div class="bt_bb_headline_subheadline" style="color: #808080;">
+                                                    At East Side Ventilation, we hire and nourish individuals with the right skill and talent. We hire employees in all sectors within our company from time to time. 
+                                                        <br>
+                                                        Apply for the role which you have experience with and we will get back to you once the role is available.
+                                                    </div>
+                                                </header>
+                                                <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                                                <div class="bt_bb_text">
+                                                    <div role="form" class="wpcf7" id="wpcf7-f1339-p13-o1" lang="en-US" dir="ltr">
+                                                        <div class="screen-reader-response">
+                                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                                            <ul></ul>
+                                                        </div>
+                                                        <form action="#" method="post" id="careerForm" onsubmit="return CareerForm();" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                                                              <input type="hidden" name="apply_for" value="HVAC technician" />
+                                                               <span id="error" style="color:#e20;"></span>
+                                                            <div style="display: none;">
+                                                                <input type="hidden" name="_wpcf7" value="1339" />
+                                                                <input type="hidden" name="_wpcf7_version" value="5.3.2" />
+                                                                <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1339-p13-o1" />
+                                                                <input type="hidden" name="_wpcf7_container_post" value="13" />
+                                                                <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+                                                            </div>
+                                                            <div class="btContact">
+                                                                <div class="btContactRow">
+                                                                    <div class="btContactColumnLeft">
+                                                                        <label>NAME *</label>
+                                                                        <span class="wpcf7-form-control-wrap your-name">
+                                                                            <input
+                                                                                type="text"
+                                                                                name="first_name"
+                                                                                id="first_name"
+                                                                                value=""
+                                                                                size="40"
+                                                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                aria-required="true"
+                                                                                aria-invalid="false"
+                                                                            />
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="btContactColumnRight">
+                                                                        <label>LASTNAME</label>
+                                                                        <span class="wpcf7-form-control-wrap your-lastname">
+                                                                            <input
+                                                                                type="text"
+                                                                                name="last_name"
+                                                                                id="last_name"
+                                                                                value=""
+                                                                                size="40"
+                                                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                aria-required="true"
+                                                                                aria-invalid="false"
+                                                                            />
+                                                                        </span>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="btContactRow">
+                                                                    <div class="btContactColumnLeft">
+                                                                        <label>EMAIL *</label>
+                                                                        <span class="wpcf7-form-control-wrap your-email">
+                                                                            <input
+                                                                                type="email"
+                                                                                name="email_id"
+                                                                                id="email_id"
+                                                                                value=""
+                                                                                size="40"
+                                                                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                                                                aria-required="true"
+                                                                                aria-invalid="false"
+                                                                            />
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="btContactColumnRight">
+                                                                        <label>PHONE NUMBER *</label>
+                                                                        <span class="wpcf7-form-control-wrap your-phone">
+                                                                            <input
+                                                                                type="tel"
+                                                                                name="phone_no"
+                                                                                id="phone_no"
+                                                                                value=""
+                                                                                size="40"
+                                                                                class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                                                                                aria-required="true"
+                                                                                aria-invalid="false"
+                                                                            />
+                                                                        </span>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="btContactRow">
+                                                                    <label>ROLE APPLYING FOR: *</label>
+                                                                    <span class="wpcf7-form-control-wrap your-address">
+                                                                        <input type="text" name="your-role" id="your-role" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" />
+                                                                    </span>
+                                                                </div>
+                                                                <div class="btContactRow">
+                                                                    <label>RESUME ATTACHMENT: *</label>
+                                                                    <span class="wpcf7-form-control-wrap myfile"> 
+                                                                        <input type="file" id="myfile" name="myfile"class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" style="height: 50px;padding: 0 10px;" aria-required="true" aria-invalid="false" />
+                                                                    </span>
+                                                                </div>
+                                                                <div class="btContactMessage">
+                                                                    <label>COVER LETTER ATTACHMENT</label>
+                                                                    <span class="wpcf7-form-control-wrap your-message">
+                                                                        <textarea name="your-message" id="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
+                                                                    </span>
+                                                                </div>
+                                                                <p><input type="submit" value="SEND MESSAGE" class="wpcf7-form-control wpcf7-submit" /><span class="ajax-loader"></span></p>
+                                                            </div>
+                                                            <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+ 
+                <!-- /contentHolder -->
+            </div>
+            <!-- /contentWrap -->
+<?php include'../container/footer.php' ?>

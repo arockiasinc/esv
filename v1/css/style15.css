@@ -1,0 +1,445 @@
+ 
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_15 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_15 .bt_bb_progress_bar_bg {
+        background: #ffffff;
+    }
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_15 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_15 .bt_bb_progress_bar_inner {
+        border-color: #565656;
+        color: #565656;
+    }
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_15 .bt_bb_progress_bar_bg {
+        background: #565656;
+    }
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_15 .bt_bb_progress_bar_inner {
+        background: #ffffff;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon .bt_bb_icon_holder {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon:hover a.bt_bb_icon_holder {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+        background-color: transparent;
+        box-shadow: 0 0 0 1px #565656 inset;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+        background-color: #565656;
+        box-shadow: 0 0 0 1em #565656 inset;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+        box-shadow: 0 0 0 1em #ffffff inset;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+        box-shadow: 0 0 0 1px #ffffff inset;
+        background-color: #565656;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_outline a {
+        box-shadow: 0 0 0 1px #565656 inset;
+        color: #565656;
+        background-color: transparent;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_outline a:hover {
+        box-shadow: 0 0 0 2em #565656 inset;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_filled a {
+        box-shadow: 0 0 0 2em #ffffff inset;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_filled a:hover {
+        box-shadow: 0 0 0 0px #ffffff inset;
+        background-color: #565656;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless a {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless:hover a {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+        box-shadow: 0 0 0 1px #565656 inset;
+        color: #565656;
+        background-color: transparent;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+        box-shadow: 0 0 0 1em #565656 inset;
+        background-color: #565656;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+        box-shadow: 0 0 0 1em #ffffff inset;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+        box-shadow: 0 0 0 1px #ffffff inset;
+        background-color: #565656;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_headline {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_headline .bt_bb_headline_superheadline {
+        color: #ffffff;
+    }
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header {
+        border-color: #565656;
+    }
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header li.on {
+        border-color: #565656;
+        color: #565656;
+        background-color: transparent;
+    }
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header li {
+        background-color: #565656;
+        color: #ffffff;
+        border-color: #565656;
+    }
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_tabs_header li {
+        color: #ffffff;
+    }
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_tabs_header li.on {
+        color: #565656;
+        border-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15 .bt_bb_accordion_item {
+        border-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item_title {
+        border-color: #565656;
+        color: #565656;
+        background-color: transparent;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+        color: #ffffff;
+        background-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+        color: #ffffff;
+        background-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+        color: #565656;
+        background-color: transparent;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+        color: #565656;
+        border-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+    .bt_bb_price_list.bt_bb_color_scheme_15 {
+        border-color: #ffffff;
+    }
+    .bt_bb_price_list.bt_bb_color_scheme_15 .bt_bb_price_list_title {
+        color: #565656;
+        background-color: #ffffff;
+    }
+    .bt_bb_price_list.bt_bb_color_scheme_15 ul li {
+        border-color: #ffffff;
+    }
+    .bt_bb_section.bt_bb_color_scheme_15 {
+        color: #565656;
+        background-color: #ffffff;
+    }
+    .bt_bb_row.bt_bb_color_scheme_15 {
+        color: #565656;
+        background-color: #ffffff;
+    }
+    .bt_bb_column.bt_bb_color_scheme_15 {
+        color: #565656;
+        background-color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon a {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon:hover a {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon:hover a span {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+        background-color: transparent;
+        box-shadow: 0 0 0 2px #565656 inset;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_outline:hover .bt_bb_icon_holder:before {
+        background-color: #565656;
+        box-shadow: 0 0 0 2em #565656 inset;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+        box-shadow: 0 0 0 2em #ffffff inset;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_filled:hover .bt_bb_icon_holder:before {
+        box-shadow: 0 0 0 0px #ffffff inset;
+        background-color: #565656;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+        box-shadow: 0 0 0 0px #ffffff inset;
+        background-color: #565656;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless:hover .bt_bb_icon_holder:before {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_outline a {
+        box-shadow: 0 0 0 2px #565656 inset;
+        color: #565656;
+        background-color: transparent;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_outline a:hover {
+        box-shadow: 0 0 0 3em #565656 inset;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_filled a {
+        box-shadow: none;
+        background-color: #ffffff;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_filled a:hover {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless a {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless:hover a {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+        box-shadow: 0 0 0 3px #ffffff inset;
+        color: #565656;
+        background-color: transparent;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+        box-shadow: 0 0 0 3em #ffffff inset;
+        background-color: #ffffff;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+        box-shadow: 0 0 0 3em #ffffff inset;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+        box-shadow: 0 0 0 1px #ffffff inset;
+        background-color: #565656;
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_service .bt_bb_service_content .bt_bb_service_content_text em {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_steps .bt_bb_steps_icon_holder .bt_bb_steps_icon .bt_bb_icon_holder {
+        box-shadow: 0 0 0 3px #ffffff inset;
+        color: #565656;
+        background-color: transparent;
+    }
+    .bt_bb_color_scheme_15.bt_bb_steps .bt_bb_steps_icon_holder .bt_bb_steps_icon:hover .bt_bb_icon_holder {
+        box-shadow: 0 0 0 3em #ffffff inset;
+        background-color: #ffffff;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_steps .bt_bb_steps_icon_holder .bt_bb_steps_icon:before {
+        background-color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_steps .bt_bb_steps_icon_holder .bt_bb_steps_before,
+    .bt_bb_color_scheme_15.bt_bb_steps .bt_bb_steps_icon_holder .bt_bb_steps_after {
+        background: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_headline {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_headline.bt_bb_subheadline .bt_bb_headline_subheadline {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_headline .bt_bb_headline_superheadline {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_headline.bt_bb_subheadline .bt_bb_headline_subheadline {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_headline b {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_headline.bt_bb_dash_top .bt_bb_headline_content:after,
+    .bt_bb_color_scheme_15.bt_bb_headline.bt_bb_dash_top_bottom .bt_bb_headline_content:before,
+    .bt_bb_color_scheme_15.bt_bb_headline.bt_bb_dash_top_bottom .bt_bb_headline_content:after,
+    .bt_bb_color_scheme_15.bt_bb_headline.bt_bb_dash_bottom .bt_bb_headline_content:after {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header {
+        border-color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header li.on {
+        border-color: #565656;
+        color: #565656;
+        background-color: transparent;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header li {
+        background-color: #565656;
+        color: #ffffff;
+        border-color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_tabs_header li {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_tabs_header li.on {
+        color: #565656;
+        border-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15 .bt_bb_accordion_item {
+        border-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item_title {
+        border-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+        background-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_number {
+        background-color: transparent;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_number,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item:hover .bt_bb_accordion_item_number {
+        background-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item {
+        background-color: #ffffff;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_content {
+        background-color: #565656;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item:hover .bt_bb_accordion_item_title {
+        background-color: #ffffff;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_number {
+        background-color: #ffffff;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_number {
+        background-color: transparent;
+    }
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+        color: #ffffff !important;
+    }
+    .bt_bb_price_list.bt_bb_color_scheme_15 {
+        border-color: #ffffff;
+    }
+    .bt_bb_price_list.bt_bb_color_scheme_15 .bt_bb_price_list_title {
+        color: #565656;
+        background-color: #ffffff;
+    }
+    .bt_bb_price_list.bt_bb_color_scheme_15 ul li {
+        border-color: #ffffff;
+    }
+    .bt_bb_section.bt_bb_color_scheme_15 {
+        color: #565656;
+        background-color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_content_slider.bt_bb_arrows_style_filled button.slick-arrow {
+        background-color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_content_slider.bt_bb_arrows_style_filled button.slick-arrow:before {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_content_slider.bt_bb_arrows_style_borderless button.slick-arrow:before {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_content_slider .slick-dots li {
+        border-color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_content_slider .slick-dots li.slick-active {
+        background: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_content_slider .slick-dots li:hover {
+        background: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_content_slider.bt_bb_arrows_style_filled .slick-dots li.slick-active {
+        background: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_content_slider.bt_bb_arrows_style_filled .slick-dots li:hover {
+        background: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_progress_bar.bt_bb_style_filled .bt_bb_progress_bar_bg {
+        background: #565656 !important;
+    }
+    .bt_bb_color_scheme_15.bt_bb_progress_bar.bt_bb_style_outline .bt_bb_progress_bar_inner {
+        border-color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_progress_bar.bt_bb_style_line .bt_bb_progress_bar_inner {
+        border-color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_rating .bt_bb_rating_icon .bt_bb_icon_holder {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_rating .bt_bb_rating_icon:hover .bt_bb_icon_holder {
+        color: #ffffff;
+    }
+    .bt_bb_color_scheme_15.bt_bb_counter_icon_holder .bt_bb_counter_icon_content .bt_bb_counter_icon_number {
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_single_product .bt_bb_single_product_content .bt_bb_single_product_price_cart a {
+        background: #ffffff;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_cost_calculator .bt_bb_cost_calculator_total .bt_bb_cost_calculator_total_text {
+        background: #ffffff;
+        color: #565656;
+    }
+    .bt_bb_color_scheme_15.bt_bb_cost_calculator .bt_bb_widget_switch.on {
+        background: #ffffff;
+    } 

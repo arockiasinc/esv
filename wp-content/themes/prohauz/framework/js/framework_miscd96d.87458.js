@@ -1,0 +1,1 @@
+"use strict";window.onunload=function(){},window.addEventListener("pageshow",function(a){a.persisted&&setTimeout(function(){window.location.reload()},10)},!1)

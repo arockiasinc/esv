@@ -1,0 +1,46 @@
+/* Asset path overrides to work on both / and /esv installs */
+@font-face{
+    font-family:"Essential";
+    src:url("../wp-content/themes/prohauz/fonts/Essential/Essential.woff") format("woff"),
+        url("../wp-content/themes/prohauz/fonts/Essential/Essential.ttf") format("truetype");
+    font-display:swap;
+}
+@font-face{
+    font-family:"Heating";
+    src:url("../wp-content/themes/prohauz/fonts/Heating/Heating.woff") format("woff"),
+        url("../wp-content/themes/prohauz/fonts/Heating/Heating.ttf") format("truetype");
+    font-display:swap;
+}
+@font-face{
+    font-family:"FontAwesome";
+    src:url("../wp-content/plugins/bold-page-builder/fonts/fontawesome-webfont5b62.woff2") format("woff2"),
+        url("../wp-content/plugins/bold-page-builder/fonts/fontawesome-webfont5b62.woff") format("woff"),
+        url("../wp-content/plugins/bold-page-builder/fonts/fontawesome-webfont5b62.ttf") format("truetype"),
+        url("../wp-content/themes/prohauz/fonts/FontAwesome/FontAwesome.woff") format("woff"),
+        url("../wp-content/themes/prohauz/fonts/FontAwesome/FontAwesome.ttf") format("truetype");
+    font-display:swap;
+    font-weight:400;
+    font-style:normal;
+}
+@font-face{
+    font-family:"Icon7Stroke";
+    src:url("../wp-content/plugins/bold-page-builder/fonts/Pe-icon-7-strokebb1d.woff") format("woff"),
+        url("../wp-content/plugins/bold-page-builder/fonts/Pe-icon-7-strokebb1d.ttf") format("truetype"),
+        url("../wp-content/themes/prohauz/fonts/Icon7Stroke/Icon7Stroke.woff") format("woff"),
+        url("../wp-content/themes/prohauz/fonts/Icon7Stroke/Icon7Stroke.ttf") format("truetype");
+    font-weight:400;
+    font-style:normal;
+}
+
+.bt_bb_section[class*="cross_bottom"]:before,
+.bt_bb_section[class*="cross_top"]:before{
+    background-image:url("../wp-content/themes/prohauz/overlay/cross-grid-2.webp") !important;
+}
+
+div.wpcf7 .ajax-loader{
+    background-image:url("../wp-content/plugins/contact-form-7/assets/ajax-loader-2-2.webp") !important;
+}
+
+.owl-carousel .owl-video-play-icon{
+    background:url("../css/owl-video-play-2.webp") no-repeat !important;
+}
